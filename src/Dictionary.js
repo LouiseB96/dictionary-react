@@ -15,7 +15,7 @@ export default function Dictionary(props) {
     event.preventDefault();
 
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    console.log(apiUrl);
+
     axios.get(apiUrl).then(handleResponse);
   }
 
@@ -26,12 +26,14 @@ export default function Dictionary(props) {
   return (
     <div className="Dictionary">
       <form onSubmit={search}>
-        <input
-          type="search"
-          autoFocus={true}
-          onChange={handleKeywordChange}
-          defaultValue={props.defaultKeyword}
-        />{" "}
+        <span className="search-bar">
+          <input
+            type="search"
+            autoFocus={true}
+            onChange={handleKeywordChange}
+            defaultValue={props.defaultKeyword}
+          />{" "}
+        </span>
       </form>
       <Results results={results} />
     </div>
