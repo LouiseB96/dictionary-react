@@ -48,6 +48,7 @@ export default function Dictionary(props) {
             suggested words: river, fruit, yoga, flower...
           </div>
         </section>
+
         <Results results={results} />
       </div>
     );

@@ -1,3 +1,7 @@
 .Results h2 {
-  font-size: 40px;
+  font-size: 50px;
+  padding: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: dashed;
 }
