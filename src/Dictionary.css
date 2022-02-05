@@ -1,16 +1,16 @@
 .Dictionary section {
-  background: #cadefc;
+  background: #e4dbff;
   padding: 12px;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   margin: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 780px;
+  width: 850px;
   font-size: 15px;
 }
 
 section input {
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 10px;
 }
