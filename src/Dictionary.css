@@ -1,12 +1,13 @@
 .Dictionary section {
-  background: #bdbaff;
+  background: #c6c6c6;
+  opacity: 86%;
   padding: 12px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   margin: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 730px;
   font-size: 15px;
 }
 
