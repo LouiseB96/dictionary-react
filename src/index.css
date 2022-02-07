@@ -15,9 +15,9 @@ code {
     monospace;
 }
 @media (max-width: 576px) {
-  .Dictionary {
-    text-align: center;
-    font-size: 20px;
+  .App {
+    margin: none;
+    width: 576px;
   }
   img {
     display: none;
